@@ -14,10 +14,6 @@ h2{
 	font-size: 32px;
 	line-height: 32px;
 }
-ul, ol{
-	font-size: 20px;
-	line-height: 26px;
-}
 .Tip{
 	border-width: 20px;
 	border-radius: 4px;
@@ -25,10 +21,15 @@ ul, ol{
 	background-color: #def6ed;
 	margin: 40px;
 }
+ul, ol{
+	font-size: 20px;
+	line-height: 26px;
+}
 ul{
 	width: 300px;
 	margin: 0 auto;
 	margin-bottom: 40px;
+	font-style: whitespace;
 }
 ol{
 	width: 450px;
@@ -42,4 +43,7 @@ nav{
 }	
 a{
 	padding: 15px;
+}
+.myDiv{
+  text-align: center;
 }
